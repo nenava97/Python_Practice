@@ -6,7 +6,7 @@ var = """ { "Status": "Healthy", "Checks": [ { "Name": "Connections", "Status": 
 """
 
 #create class that will parse through json and do a health check of systems in var
-class JsonParser:
+class JsonHealthServerParser:
   def __init__(self, data):
     self.data = data
     self.dict_data = json.loads(self.data)
