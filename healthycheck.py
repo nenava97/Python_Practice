@@ -41,4 +41,3 @@ class JsonHealthServerParser:
 #will print appended list of healthy and unhealthy system names 
 object1 = JsonParser(var)
 object1.check_health()
-object1.print_names()
